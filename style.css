@@ -30,9 +30,15 @@ nav {
 #discordlogo {
     margin-left: auto;
     margin-right: auto;
-    height: 55px;
     margin-top: 10px;
+}
+
+#line {
     border-bottom: 2px solid rgb(54,57,63);
+    width: 40px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #discordlogo img {
