@@ -1,28 +1,27 @@
 body {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav {
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    height: 100vh;
-    float: left;
-    padding: 0px 20px;
-    background-color: rgb(32, 34, 37);
-    font-family: 'Montserrat', sans-serif;
-    z-index: 1000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  padding: 0px 20px;
+  background-color: rgb(32, 34, 37);
+  z-index: 1000;
 }
 
 .channels {
-    color: white;
-    text-align: center;
-    margin-left: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50px;
+  color: white;
+  text-align: center;
+  margin-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
 }
 
 .border {
@@ -37,25 +36,25 @@ nav {
 }
 
 .channels .border:hover {
-    border-radius: 25%;
-    background-color: #6A5ACD;
-    cursor: pointer;
-    transition: 0.25s all ease-in-out;
+  border-radius: 25%;
+  background-color: #6A5ACD;
+  cursor: pointer;
+  transition: 0.25s all ease-in-out;
 }
 
 
 #discordlogo {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
 
 #line {
-    border-bottom: 2px solid rgb(54,57,63);
-    width: 40px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+  border-bottom: 2px solid rgb(54,57,63);
+  width: 40px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #discordlogo img {
@@ -63,45 +62,46 @@ nav {
 }
 
 #addserver {
-    background-color: rgb(54,57,63);
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    font-size: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
+  background-color: rgb(54,57,63);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+#addserver p {
+  color: rgb(59, 165, 93);
 }
 
 #addserver p:hover {
-    color: white;
-    background-color: rgb(59, 165, 93);
-    border-radius: 25%;
-}
-
-#addserver p {
-    color: rgb(59, 165, 93);
+  color: white;
+  background-color: rgb(59, 165, 93);
+  border-radius: 25%;
 }
 
 
 #addserver:hover {
-    border-radius: 25%;
-    background-color: #529670;
-    color: white;
+  border-radius: 25%;
+  background-color: #529670;
+  color: white;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    background-color: #2F3136;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #2F3136;
 }
 
 main {
-    background-color: rgb(54, 57, 63);
-    margin-left: 10vh;
-    width: 100%;
-    height: 100vh;
-    margin: 0;
+  background-color: rgb(54, 57, 63);
+  margin-left: 10vh;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
 }
