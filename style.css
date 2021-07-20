@@ -1,6 +1,7 @@
 body {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -43,17 +44,17 @@ nav {
 
 
 #discordlogo {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
 
 #line {
-    border-bottom: 2px solid rgb(54,57,63);
-    width: 40px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+  border-bottom: 2px solid rgb(54,57,63);
+  width: 40px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #discordlogo img {
