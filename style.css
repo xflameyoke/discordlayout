@@ -10,16 +10,14 @@ nav {
     bottom: 0;
     height: 100vh;
     float: left;
-    padding: 0px 20px;
+    padding: 0px 10px;
     background-color: rgb(32, 34, 37);
     font-family: 'Montserrat', sans-serif;
-    z-index: 1000;
 }
 
 .channels {
     color: white;
     text-align: center;
-    margin-left: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 50px;
@@ -40,7 +38,7 @@ nav {
     border-radius: 25%;
     background-color: #6A5ACD;
     cursor: pointer;
-    transition: 0.25s all ease-in-out;
+    transition: 0.15s all ease-in-out;
 }
 
 
@@ -63,45 +61,111 @@ nav {
 }
 
 #addserver {
+    color:rgb(59, 165, 93);
     background-color: rgb(54,57,63);
     border-radius: 50%;
     width: 50px;
     height: 50px;
     font-size: 36px;
+    font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-#addserver p:hover {
-    color: white;
-    background-color: rgb(59, 165, 93);
-    border-radius: 25%;
+#addserver i {
+    font-size: 36px;
 }
-
-#addserver p {
-    color: rgb(59, 165, 93);
-}
-
 
 #addserver:hover {
     border-radius: 25%;
-    background-color: #529670;
+    background-color: rgb(59, 165, 93);
     color: white;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    background-color: #2F3136;
+    cursor: pointer;
+    transition: 0.15s all ease-in-out;
 }
 
 main {
     background-color: rgb(54, 57, 63);
-    margin-left: 10vh;
     width: 100%;
     height: 100vh;
-    margin: 0;
+    margin-left: 70px;
+}
+
+#left {
+    background-color: rgb(47, 49, 54);
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    color: white;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#find {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+input {
+    width: 220px;
+    background: rgb(32, 34, 37);
+    color: rgb(211, 211, 211);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    border: 1px solid rgb(32, 34, 37);
+    border-radius: 10%;
+    padding: 5px;
+}
+
+#list {
+    justify-content: center;
+    margin: 10px;
+}
+
+#list div {
+    padding: 10px;
+    border-radius: 5%;
+    color:rgb(142, 146, 150);
+    font-size: 15px;
+}
+
+#list div:hover {
+    background-color: rgb(54, 57, 63);
+    color: white;
+}
+
+i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#priv {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(142, 146, 150);
+}
+
+#priv:hover {
+    color: white;
+}
+
+.friends-list {
+    justify-content: center;
+    margin: 10px;
+}
+
+.friends-list p {
+    padding: 10px;
+    border-radius: 5%;
+    color:rgb(142, 146, 150);
+    font-size: 15px;
+}
+
+.friends-list img {
+    margin-right: 10px;
 }
