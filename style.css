@@ -138,17 +138,28 @@ input {
 #list div:hover {
     background-color: rgb(54, 57, 63);
     color: white;
+    cursor: pointer;
 }
 
-i {
+#list i {
     margin-right: 10px;
     font-size: 20px;
+    height: 20px;
+    width: 10px;
 }
+
 
 #priv {
     font-size: 15px;
     text-align: center;
     color: rgb(142, 146, 150);
+    line-height: 20px;
+    align-items: center;
+}
+
+#priv span {
+    margin-left: 40px;
+    font-size: 18px;
 }
 
 #priv:hover {
@@ -156,17 +167,87 @@ i {
 }
 
 .friends-list {
-    justify-content: center;
-    margin: 10px;
+    margin: 5px;
 }
 
 .friends-list p {
-    padding: 10px;
-    border-radius: 5%;
+    margin-bottom: 15px;
     color:rgb(142, 146, 150);
     font-size: 15px;
+    margin-left: 10px;
+}
+
+.friends-list-position:hover {
+    background-color: rgb(54, 57, 63);
+    width: 230px;
+    height: 40px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    cursor: pointer;
+}
+
+.friends-list-position {
+    display: flex;
+    line-height: 10px;
+    align-items: center;
+    margin-left: 10px;
+    padding-left: 5px;
 }
 
 .friends-list img {
+    height: 27px;
+}
+
+#your-account {
+    background-color: rgb(40, 43, 46);
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+    height: 50px;
+    align-items: center;
+}
+
+#your-account img {
+    height: 27px;
+}
+
+#your-account img:hover {
+    cursor: pointer;
+}
+
+#your-account p {
+    margin-left: 8px;
+    font-size: 12px;
+    white-space: pre-line;
+}
+
+#your-account span {
+    font-size: 15px;
+    padding: 0;
+    margin-left: 30px;
     margin-right: 10px;
+}
+
+#your-account i {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 10%;
+    font-size: 17px;
+}
+
+#your-account i:hover {
+    background-color:rgb(54, 57, 63);
+    cursor: pointer;
+}
+
+.your-account-position {
+    display: flex;
+    line-height: 10px;
+    align-items: center;
+    margin-left: 10px;
+    padding-left: 5px;
+    width: 250px;
+    height: 50px;
 }
