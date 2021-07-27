@@ -47,6 +47,18 @@
       "css": "cog",
       "code": 59397,
       "src": "iconic"
+    },
+    {
+      "uid": "a3d734a5b4bec33fc3aa459d82092b23",
+      "css": "help-circled",
+      "code": 59398,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "c7a75a25880928fe76981a53eca4f926",
+      "css": "inbox",
+      "code": 59399,
+      "src": "fontawesome"
     }
   ]
 }
